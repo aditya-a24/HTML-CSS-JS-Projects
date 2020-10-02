@@ -2,12 +2,14 @@ body{
     margin: 0;
 }
 
+/*for vertical navbar */
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #333;
     position: fixed;
     overflow: auto;
     height: 100%;
@@ -17,12 +19,11 @@ li a{
     display: block;
     padding: 8px 16px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 li a:hover:not(.active){
-    background-color: #555;
-    color: #fff;
+    background-color: #111;
 }
 
 li a.active{
@@ -34,4 +35,58 @@ li a.active{
     margin-left: 25%;
     padding: 1px 16px;
     height: 1000px;
+}
+
+/*for horizontal navbar and media query*/
+
+@media (max-width:900px){
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #333;
+        overflow: hidden;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: auto;
+     /*position: sticky;*/
+    }
+
+    li{
+        float: left;
+    }
+
+    li a{
+        padding: 14px 16px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    }
+
+    li a:hover:not(.active){
+        background-color: #111;
+    }
+
+    li a.active{
+        background-color: #4CAF50;
+    }
+
+    .main-cont{
+        padding: 20px;
+        margin: 30px 0 0 0;
+        height: 1000px;
+    }
+
+}
+
+@media (max-width: 600px){
+    li{
+        float: none;
+    }
+    .main-cont{
+        margin-top: 184px;
+    }
+    
 }
