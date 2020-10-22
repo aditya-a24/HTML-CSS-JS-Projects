@@ -31,6 +31,10 @@ h1{
 
 .img-cont:hover{
     border: 1.5px solid orangered;
+    opacity: 0.8;
+    transform: scale(0.9);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
 }
 
 .des{
