@@ -5,3 +5,4 @@
 <p>03.Shine effect - "https://shine-effect.netlify.app/"</p>
 <p>04.Slide Show - "https://04slideshow.netlify.app/"</p>
 <p>05.Photo Gallery - "https://photo-gall.netlify.app/"</p>
+<p>06.Hover Effect - "https://hovereffectsvg.netlify.app/"</p>
