@@ -1,59 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
-  margin: 0;
   background-color: #4caf50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-family: raleway;
-  color: #fff;
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #333;
-  padding: 3rem;
-  border-radius: 1rem;
-  border: 3px #000 solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.form {
-  display: grid;
-  grid-template-columns: auto;
-  row-gap: 1rem;
-  column-gap: 3rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading {
-  margin: 0;
-  text-align: center;
-}
-
-.password-display {
-  background-color: white;
-  color: black;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  color: #fff;
+  font-family: raleway;
+  padding: 20px;
+  max-width: 500px;
   border: 2px black solid;
-  height: 2rem;
-  width: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  word-break: break-all;
+  border-radius: 1em;
 }
 
-.button {
-  padding: 0.5rem 0;
+.charlen {
+  margin-bottom: 1em;
+}
+
+#length {
+  display: inline;
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 2em;
+  height: 3em;
+  border-radius: 0.5em;
   border: none;
 }
+.button {
+  width: 100%;
+  border: none;
+  padding: 0.8em;
+}
+
 .button:hover {
   background-color: #4caf50;
   border: none;

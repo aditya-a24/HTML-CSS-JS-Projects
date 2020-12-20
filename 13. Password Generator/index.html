@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 <body>
     <div class="container">
-        <h1 class="heading">Random Password Generator</h1>
-        <h3 class="password-display">Password</h3>
-        <form class="form">
-            <div>
-                <label for="characterAmnt">Number Of Characters</label>
-                <input type="range" min="1" max="30" value="8" id="charRange">
-                <input type="number" min="1" max="30" value="8" id="charNumber">
+        <div class="content">
+            <h1>Random Password Generator</h1>
+            <input type="text" id="display">
+            <div class="charlen">
+            <label for="slider">Password Length : </label>
+            <input type="range" min="0" max="30" value="8" name="slider" id="slider">
+            <div id="length"></div>
             </div>
-
-            <label for="id="includeUppercase"">Include Uppercase Letters</label>
-            <input type="checkbox" id="includeUppercase">
-
-            <label for="includeNumbers">Include Numbers</label>
-            <input type="checkbox" id="includeNumbers">
-
-            <label for="includeSpecialChar">Include Special Characters</label>
-            <input type="checkbox" id="includeSpecialChar">
-
-            <button type="submit" class="button">Generate Password</button>
-        </form>
+            <button class="button" onclick="generate()"><span class="label">Generate Password</span></button>
+        </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
