@@ -10,8 +10,8 @@ function generate(){
     let password = "";
 
     //loop to choose password characters
-    for(var i = 0; i <= complexity; i++){
-        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+    for(var i = 0 ; i < complexity ; i++){
+        password = password + values.charAt(Math.floor(Math.random() * (values.length + 1)));
     }
 
     //display password
