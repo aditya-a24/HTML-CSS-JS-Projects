@@ -12,4 +12,4 @@
 <p>10.Share Button 2 - "https://sharebtn2.netlify.app/"</p>
 <p>11.Liquid Nav Button - "https://liquidnav.netlify.app/"</p>
 <p>12. Tip Calculator - "https://tipcal.netlify.app/"</p>
-<p>13. Random Password Generator - "https://pswdgenerator.netlify.app/"</p>
+<p>13. Random Password Generator - "https://rndmpasswdgnrt.netlify.app/"</p>
