@@ -14,4 +14,3 @@
 <p>11.Liquid Nav Button - "https://liquidnav.netlify.app/"</p>
 <p>12. Tip Calculator - "https://tipcal.netlify.app/"</p>
 <p>13. Random Password Generator - "https://rndmpasswdgnrtr.netlify.app/"</p>
-![Netlify Status](https://api.netlify.com/api/v1/badges/c6b52e0e-0148-4cf8-b2c6-93e5607e9967/deploy-status)
