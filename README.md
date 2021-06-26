@@ -1,5 +1,6 @@
 <h1>HTML, CSS & JS Projects for beginners.</h1>
 </br>
+
 <p>01.Navbar - "https://rspnsvenavbar.netlify.app"</p>
 <p>02.Profile Card - "https://userprofilecard.netlify.app/"</p>
 <p>03.Shine effect - "https://shine-effect.netlify.app/"</p>
@@ -12,4 +13,4 @@
 <p>10.Share Button 2 - "https://sharebtn2.netlify.app/"</p>
 <p>11.Liquid Nav Button - "https://liquidnav.netlify.app/"</p>
 <p>12. Tip Calculator - "https://tipcal.netlify.app/"</p>
-<p>13. Random Password Generator - "https://rndmpasswdgnrt.netlify.app/"</p>
+<p>13. Random Password Generator - "https://rndmpasswdgnrtr.netlify.app/" [![Netlify Status](https://api.netlify.com/api/v1/badges/c6b52e0e-0148-4cf8-b2c6-93e5607e9967/deploy-status)](https://app.netlify.com/sites/rndmpasswdgnrtr/deploys)</p>
