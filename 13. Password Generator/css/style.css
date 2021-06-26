@@ -6,6 +6,7 @@ body {
 
 .container {
   display: flex;
+  margin: 100px auto;
   justify-content: center;
   align-items: center;
 }
@@ -20,6 +21,7 @@ body {
   max-width: 500px;
   border: 2px black solid;
   border-radius: 1em;
+  text-align: center;
 }
 
 .charlen {
@@ -32,11 +34,15 @@ body {
 
 #display {
   width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: none;
   height: 3em;
   border-radius: 0.5em;
   border: none;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #fff;
 }
+
 .button {
   width: 100%;
   border: none;
