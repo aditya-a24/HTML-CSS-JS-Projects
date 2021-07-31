@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Random Password Generator</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="content">
-            <h1>Random Password Generator</h1>
-            <input type="text" id="display" disabled>
-            <h3>Your Password</h3>
-            <div class="charlen">
-            <label for="slider">Password Length : </label>
-            <input type="range" min="6" max="30" value="8" name="slider" id="slider">
-            <div id="length"></div>
-            </div>
-            <button class="button" onclick="generate()"><span class="label">Generate Password</span></button>
+      <div class="content">
+        <h1>Random Password Generator</h1>
+        <input type="text" id="display" disabled />
+        <h3>Your Password</h3>
+        <div class="charlen">
+          <label for="slider">Password Length : </label>
+          <input
+            type="range"
+            min="6"
+            max="45"
+            value="8"
+            name="slider"
+            id="slider"
+          />
+          <div id="length"></div>
         </div>
+        <button class="button" onclick="generate()">
+          <span class="label">Generate Password</span>
+        </button>
+      </div>
     </div>
     <footer>
-        <p>Made with &#10084;&#65039; by <a href="https://twitter.com/Aditya_a24" target="_blank">Aditya Anand</a></p>
+      <p>
+        Made with &#10084;&#65039; by
+        <a href="https://twitter.com/Aditya_a24" target="_blank"
+          >Aditya Anand</a
+        >
+      </p>
     </footer>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
