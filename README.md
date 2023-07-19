@@ -14,3 +14,4 @@
 <p>11.Liquid Nav Button - "https://liquidnav.netlify.app/"</p>
 <p>12. Tip Calculator - "https://tipcal.netlify.app/"</p>
 <p>13. Random Password Generator - "https://passwdgnrtr.netlify.app/"</p>
+<p>14. Blurry Loading - "https://blurry-loading24.netlify.app/"</p>
